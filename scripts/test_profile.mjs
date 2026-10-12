@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import {terrainSampler,profileAlong} from '../dist/terrain-profile.mjs';
+const p=new Float32Array([0,0,0,10,10,0,0,0,10,10,10,10]),idx=new Uint32Array([0,2,1,1,2,3]);
+const sample=terrainSampler(p,idx,2,2);
+assert.equal(sample(5,5).y,5);assert.equal(sample(8,8).y,8);assert.equal(sample(-1,0),null);
+const r=profileAlong([{x:1,z:5},{x:9,z:5}],sample,1);
+assert.equal(r.horizontal,8);assert.ok(Math.abs(r.surface-Math.sqrt(128))<1e-9);assert.equal(r.slope,100);assert.equal(r.angle,45);
+const hole=terrainSampler(p,new Uint32Array([0,2,1]),2,2);assert.equal(hole(8,8),null);
+assert.throws(()=>profileAlong([{x:1,z:1},{x:9,z:9}],hole));
+console.log('Perfis: plano inclinado, interpolação triangular, distâncias, inclinação e NoData passaram.');

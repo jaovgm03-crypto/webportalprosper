@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import {pdfBytes} from '../dist/geopdf.js';
+import {pageLayout} from '../dist/export-layout.mjs';
+const manifest=JSON.parse(fs.readFileSync('dist/data/manifest.json'));
+const m=manifest.months.at(-1),[[south,west],[north,east]]=m.orthoWebBounds;
+const jpeg=fs.readFileSync('tmp/pdf-test.jpg');
+const settings=process.argv[2]?{orientation:process.argv[2],marginMm:Number(process.argv[3]??2)}:true;
+fs.writeFileSync('tmp/geopdf-test.pdf',pdfBytes(jpeg,900,700,[west,south,east,north],'WebGIS Prosper - Mina Cuité - Teste geoespacial',settings));
+fs.writeFileSync('tmp/expected-layout.json',JSON.stringify(pageLayout(900,700,settings)));
+fs.writeFileSync('tmp/expected-bounds.json',JSON.stringify([west,south,east,north]));

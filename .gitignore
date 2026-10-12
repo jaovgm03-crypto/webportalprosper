@@ -1,0 +1,14 @@
+backup*/
+python_packages/
+.skills/
+.vercel/
+node_modules/
+__pycache__/
+*.pyc
+*.log
+.env
+.env.*
+tmp/
+output/
+.vercel
+.env*

@@ -1,0 +1,1149 @@
+{
+  "months": [
+    {
+      "id": "2026_01",
+      "label": "Janeiro 2026",
+      "volume": 427.789,
+      "density": 1.9,
+      "tonnes": 812.7991,
+      "orthoBounds": [
+        [
+          -19.39950485010163,
+          -42.94675001695597
+        ],
+        [
+          -19.38454255578163,
+          -42.93864536753497
+        ]
+      ],
+      "terrainBounds": [
+        [
+          -19.399505452561627,
+          -42.94675001695597
+        ],
+        [
+          -19.38454255578163,
+          -42.938646446955964
+        ]
+      ],
+      "elevationMin": 681.07421875,
+      "elevationMax": 1008.9391479492188,
+      "contourCount": 1157,
+      "cloudCRS": "PROJCS[\"WGS 84 / UTM zone 23S\",GEOGCS[\"WGS 84\",DATUM[\"World Geodetic System 1984 ensemble\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9102\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\",AUTHORITY[\"EPSG\",\"9807\"]],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",10000000],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"32723\"]]",
+      "pointCount": 1839157,
+      "displayPointCount": 367832,
+      "cloudOriginUTM": [
+        716056.2225174587,
+        7854507.481718533,
+        847.1036755419316
+      ],
+      "cloudDisplayCRS": "EPSG:32723",
+      "cloudExtent": [
+        860.5999755859375,
+        336.6000061035156,
+        1649.9000244140625
+      ],
+      "cloudChunks": [
+        {
+          "positions": "points-full-0.bin",
+          "colors": "colors-full-0.bin",
+          "count": 367832
+        },
+        {
+          "positions": "points-full-1.bin",
+          "colors": "colors-full-1.bin",
+          "count": 367832
+        },
+        {
+          "positions": "points-full-2.bin",
+          "colors": "colors-full-2.bin",
+          "count": 367831
+        },
+        {
+          "positions": "points-full-3.bin",
+          "colors": "colors-full-3.bin",
+          "count": 367831
+        },
+        {
+          "positions": "points-full-4.bin",
+          "colors": "colors-full-4.bin",
+          "count": 367831
+        }
+      ],
+      "fullPointCount": 1839157,
+      "surface": {
+        "width": 540,
+        "height": 1033,
+        "boundsUTM": [
+          715619.5900383443,
+          7853673.501812923,
+          716490.7423887602,
+          7855340.059421737
+        ],
+        "vertexCount": 557820,
+        "indexCount": 2117091,
+        "triangleCount": 705697,
+        "textureWidth": 3398,
+        "textureHeight": 6500,
+        "elevationMin": 681.08056640625,
+        "elevationMax": 1008.8894653320312,
+        "source": "Modelo Digital do Terreno (MDT) texturizado com Ortofoto RGB de alta resolucao"
+      },
+      "orthoWebBounds": [
+        [
+          -19.399505048767576,
+          -42.94675001695597
+        ],
+        [
+          -19.384542555781636,
+          -42.93864557374529
+        ]
+      ],
+      "terrainWebBounds": [
+        [
+          -19.399505274211233,
+          -42.94675001695597
+        ],
+        [
+          -19.384542555781636,
+          -42.93864702094024
+        ]
+      ],
+      "sourceElevationMin": 681.0257568359375,
+      "sourceElevationMax": 1008.9939575195312,
+      "terrainClassCounts": [
+        434787,
+        459873,
+        493458,
+        531979,
+        241884
+      ]
+    },
+    {
+      "id": "2026_02",
+      "label": "Fevereiro 2026",
+      "volume": 875.18,
+      "density": 1.9,
+      "tonnes": 1662.842,
+      "orthoBounds": [
+        [
+          -19.39967418264668,
+          -42.94690143995856
+        ],
+        [
+          -19.38442491398468,
+          -42.93844227512556
+        ]
+      ],
+      "terrainBounds": [
+        [
+          -19.39967481496468,
+          -42.94690143995856
+        ],
+        [
+          -19.38442491398468,
+          -42.93844179195856
+        ]
+      ],
+      "elevationMin": 683.0287475585938,
+      "elevationMax": 1019.1920776367188,
+      "contourCount": 22543,
+      "cloudCRS": "PROJCS[\"WGS 84 / UTM zone 23S\",GEOGCS[\"WGS 84\",DATUM[\"World Geodetic System 1984 ensemble\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9102\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\",AUTHORITY[\"EPSG\",\"9807\"]],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",10000000],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"32723\"]]",
+      "pointCount": 1901009,
+      "displayPointCount": 380202,
+      "cloudOriginUTM": [
+        716059.7262636077,
+        7854502.801141938,
+        851.0338609629321
+      ],
+      "cloudDisplayCRS": "EPSG:32723",
+      "cloudExtent": [
+        898.0,
+        337.8999938964844,
+        1683.4000244140625
+      ],
+      "cloudChunks": [
+        {
+          "positions": "points-full-0.bin",
+          "colors": "colors-full-0.bin",
+          "count": 380202
+        },
+        {
+          "positions": "points-full-1.bin",
+          "colors": "colors-full-1.bin",
+          "count": 380202
+        },
+        {
+          "positions": "points-full-2.bin",
+          "colors": "colors-full-2.bin",
+          "count": 380202
+        },
+        {
+          "positions": "points-full-3.bin",
+          "colors": "colors-full-3.bin",
+          "count": 380202
+        },
+        {
+          "positions": "points-full-4.bin",
+          "colors": "colors-full-4.bin",
+          "count": 380201
+        }
+      ],
+      "fullPointCount": 1901009,
+      "surface": {
+        "width": 540,
+        "height": 1009,
+        "boundsUTM": [
+          715603.4599691358,
+          7853654.394952852,
+          716512.2586555914,
+          7855353.272626511
+        ],
+        "vertexCount": 544860,
+        "indexCount": 2047239,
+        "triangleCount": 682413,
+        "textureWidth": 3477,
+        "textureHeight": 6500,
+        "elevationMin": 683.1530151367188,
+        "elevationMax": 1018.9119873046875,
+        "source": "Modelo Digital do Terreno (MDT) texturizado com Ortofoto RGB de alta resolucao"
+      },
+      "orthoWebBounds": [
+        [
+          -19.3996745281025,
+          -42.94690143995855
+        ],
+        [
+          -19.384424913984677,
+          -42.93844214853361
+        ]
+      ],
+      "terrainWebBounds": [
+        [
+          -19.399675175855986,
+          -42.94690143995855
+        ],
+        [
+          -19.384424913984677,
+          -42.93844187563555
+        ]
+      ],
+      "sourceElevationMin": 682.6774291992188,
+      "sourceElevationMax": 1019.4918212890625,
+      "terrainClassCounts": [
+        437086,
+        383490,
+        523075,
+        520822,
+        222242
+      ]
+    },
+    {
+      "id": "2026_03",
+      "label": "Março 2026",
+      "volume": 539.529,
+      "density": 1.9,
+      "tonnes": 1025.1051,
+      "orthoBounds": [
+        [
+          -19.399229284431573,
+          -42.946759029325634
+        ],
+        [
+          -19.384134803787575,
+          -42.93855430068163
+        ]
+      ],
+      "terrainBounds": [
+        [
+          -19.399229637537573,
+          -42.946759029325634
+        ],
+        [
+          -19.384134803787575,
+          -42.93855415292563
+        ]
+      ],
+      "elevationMin": 685.5038452148438,
+      "elevationMax": 1003.7724609375,
+      "contourCount": 894,
+      "cloudCRS": "PROJCS[\"WGS 84 / UTM zone 23S\",GEOGCS[\"WGS 84\",DATUM[\"World Geodetic System 1984 ensemble\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9102\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\",AUTHORITY[\"EPSG\",\"9807\"]],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",10000000],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"32723\"]]",
+      "pointCount": 1841947,
+      "displayPointCount": 368390,
+      "cloudOriginUTM": [
+        716058.2386019861,
+        7854542.787153026,
+        842.8507108096171
+      ],
+      "cloudDisplayCRS": "EPSG:32723",
+      "cloudExtent": [
+        875.0999755859375,
+        337.6000061035156,
+        1668.0999755859375
+      ],
+      "cloudChunks": [
+        {
+          "positions": "points-full-0.bin",
+          "colors": "colors-full-0.bin",
+          "count": 368390
+        },
+        {
+          "positions": "points-full-1.bin",
+          "colors": "colors-full-1.bin",
+          "count": 368390
+        },
+        {
+          "positions": "points-full-2.bin",
+          "colors": "colors-full-2.bin",
+          "count": 368389
+        },
+        {
+          "positions": "points-full-3.bin",
+          "colors": "colors-full-3.bin",
+          "count": 368389
+        },
+        {
+          "positions": "points-full-4.bin",
+          "colors": "colors-full-4.bin",
+          "count": 368389
+        }
+      ],
+      "fullPointCount": 1841947,
+      "surface": {
+        "width": 540,
+        "height": 1030,
+        "boundsUTM": [
+          715619.0065817937,
+          7853703.891047037,
+          716500.8842229797,
+          7855385.212184776
+        ],
+        "vertexCount": 556200,
+        "indexCount": 2060265,
+        "triangleCount": 686755,
+        "textureWidth": 3409,
+        "textureHeight": 6500,
+        "elevationMin": 686.3721313476562,
+        "elevationMax": 1003.3519897460938,
+        "source": "Modelo Digital do Terreno (MDT) texturizado com Ortofoto RGB de alta resolucao"
+      },
+      "orthoWebBounds": [
+        [
+          -19.399229513115177,
+          -42.94675902932563
+        ],
+        [
+          -19.38413480378758,
+          -42.93855482402444
+        ]
+      ],
+      "terrainWebBounds": [
+        [
+          -19.3992294695305,
+          -42.94675902932563
+        ],
+        [
+          -19.38413480378758,
+          -42.938553739585515
+        ]
+      ],
+      "sourceElevationMin": 685.2630615234375,
+      "sourceElevationMax": 1003.7947998046875,
+      "terrainClassCounts": [
+        439321,
+        419267,
+        524657,
+        534119,
+        184001
+      ]
+    },
+    {
+      "id": "2026_04",
+      "label": "Abril 2026",
+      "volume": 908.47,
+      "density": 1.9,
+      "tonnes": 1726.093,
+      "orthoWebBounds": [
+        [
+          -19.398994496119922,
+          -42.94678989639115
+        ],
+        [
+          -19.384489479653364,
+          -42.93861707917557
+        ]
+      ],
+      "orthoBounds": [
+        [
+          -19.398994496119922,
+          -42.94678989639115
+        ],
+        [
+          -19.384489479653364,
+          -42.93861707917557
+        ]
+      ],
+      "terrainWebBounds": [
+        [
+          -19.39899381826175,
+          -42.94678989639115
+        ],
+        [
+          -19.384489479653364,
+          -42.93861677871841
+        ]
+      ],
+      "terrainBounds": [
+        [
+          -19.39899381826175,
+          -42.94678989639115
+        ],
+        [
+          -19.384489479653364,
+          -42.93861677871841
+        ]
+      ],
+      "elevationMin": 687.5719604492188,
+      "elevationMax": 995.1873168945312,
+      "contourCount": 801,
+      "cloudChunks": [
+        {
+          "positions": "points-full-0.bin",
+          "colors": "colors-full-0.bin",
+          "count": 349809
+        },
+        {
+          "positions": "points-full-1.bin",
+          "colors": "colors-full-1.bin",
+          "count": 349808
+        },
+        {
+          "positions": "points-full-2.bin",
+          "colors": "colors-full-2.bin",
+          "count": 349808
+        },
+        {
+          "positions": "points-full-3.bin",
+          "colors": "colors-full-3.bin",
+          "count": 349808
+        },
+        {
+          "positions": "points-full-4.bin",
+          "colors": "colors-full-4.bin",
+          "count": 349808
+        }
+      ],
+      "fullPointCount": 1749041,
+      "pointCount": 1749041,
+      "cloudOriginUTM": [
+        716060.0,
+        7854510.0,
+        850.0
+      ],
+      "cloudDisplayCRS": "EPSG:32723",
+      "cloudExtent": [
+        870.0,
+        317.9000244140625,
+        1603.0
+      ],
+      "surface": {
+        "width": 540,
+        "height": 994,
+        "boundsUTM": [
+          715616.0731370992,
+          7853729.8616506625,
+          716493.8758869028,
+          7855345.9852394
+        ],
+        "vertexCount": 536760,
+        "indexCount": 2029377,
+        "triangleCount": 676459,
+        "textureWidth": 3530,
+        "textureHeight": 6500,
+        "elevationMin": 687.6036376953125,
+        "elevationMax": 995.1154174804688,
+        "source": "Modelo Digital do Terreno (MDT) texturizado com Ortofoto RGB de alta resolucao"
+      },
+      "sourceElevationMin": 687.5078125,
+      "sourceElevationMax": 995.3232421875,
+      "terrainClassCounts": [
+        421901,
+        440063,
+        494353,
+        541029,
+        172198
+      ]
+    },
+    {
+      "id": "2026_05",
+      "label": "Maio 2026",
+      "volume": 12551.05808,
+      "density": 1.9,
+      "tonnes": 23847.01035,
+      "orthoWebBounds": [
+        [
+          -19.398715135834642,
+          -42.94755480539604
+        ],
+        [
+          -19.385899439474628,
+          -42.93659215674448
+        ]
+      ],
+      "orthoBounds": [
+        [
+          -19.398715135834642,
+          -42.94755480539604
+        ],
+        [
+          -19.385899439474628,
+          -42.93659215674448
+        ]
+      ],
+      "terrainWebBounds": [
+        [
+          -19.398745052021408,
+          -42.947678658192096
+        ],
+        [
+          -19.385847788447602,
+          -42.93648253787855
+        ]
+      ],
+      "terrainBounds": [
+        [
+          -19.398745052021408,
+          -42.947678658192096
+        ],
+        [
+          -19.385847788447602,
+          -42.93648253787855
+        ]
+      ],
+      "elevationMin": 683.0614624023438,
+      "elevationMax": 1005.1103515625,
+      "contourCount": 3899,
+      "cloudChunks": [
+        {
+          "positions": "points-full-0.bin",
+          "colors": "colors-full-0.bin",
+          "count": 455261
+        },
+        {
+          "positions": "points-full-1.bin",
+          "colors": "colors-full-1.bin",
+          "count": 455261
+        },
+        {
+          "positions": "points-full-2.bin",
+          "colors": "colors-full-2.bin",
+          "count": 455261
+        },
+        {
+          "positions": "points-full-3.bin",
+          "colors": "colors-full-3.bin",
+          "count": 455261
+        },
+        {
+          "positions": "points-full-4.bin",
+          "colors": "colors-full-4.bin",
+          "count": 455261
+        }
+      ],
+      "fullPointCount": 2276305,
+      "pointCount": 2276305,
+      "cloudOriginUTM": [
+        716060.0,
+        7854510.0,
+        850.0
+      ],
+      "cloudDisplayCRS": "EPSG:32723",
+      "cloudExtent": [
+        1159.199951171875,
+        324.0999755859375,
+        1413.699951171875
+      ],
+      "surface": {
+        "width": 540,
+        "height": 662,
+        "boundsUTM": [
+          715536.0887706187,
+          7853758.293071249,
+          716704.7579404382,
+          7855190.847187763
+        ],
+        "vertexCount": 357480,
+        "indexCount": 1433214,
+        "triangleCount": 477738,
+        "textureWidth": 5303,
+        "textureHeight": 6500,
+        "elevationMin": 683.2818603515625,
+        "elevationMax": 1004.6031494140625,
+        "source": "Modelo Digital do Terreno (MDT) texturizado com Ortofoto RGB de alta resolucao"
+      },
+      "sourceElevationMin": 682.94677734375,
+      "sourceElevationMax": 1005.4157104492188,
+      "terrainClassCounts": [
+        276937,
+        342516,
+        336404,
+        296519,
+        128060
+      ]
+    },
+    {
+      "id": "2026_06",
+      "label": "Junho 2026",
+      "volume": 15297.0,
+      "density": 1.9,
+      "tonnes": 29064.3,
+      "orthoWebBounds": [
+        [
+          -19.39871391569466,
+          -42.94755480539604
+        ],
+        [
+          -19.385899439474628,
+          -42.93659221026851
+        ]
+      ],
+      "orthoBounds": [
+        [
+          -19.39871391569466,
+          -42.94755480539604
+        ],
+        [
+          -19.385899439474628,
+          -42.93659221026851
+        ]
+      ],
+      "terrainWebBounds": [
+        [
+          -19.398714288573093,
+          -42.94755480539604
+        ],
+        [
+          -19.385899439474628,
+          -42.936592513847145
+        ]
+      ],
+      "terrainBounds": [
+        [
+          -19.398714288573093,
+          -42.94755480539604
+        ],
+        [
+          -19.385899439474628,
+          -42.936592513847145
+        ]
+      ],
+      "elevationMin": 683.3737182617188,
+      "elevationMax": 1004.8780517578125,
+      "contourCount": 723,
+      "cloudChunks": [
+        {
+          "positions": "points-full-0.bin",
+          "colors": "colors-full-0.bin",
+          "count": 458946
+        },
+        {
+          "positions": "points-full-1.bin",
+          "colors": "colors-full-1.bin",
+          "count": 458946
+        },
+        {
+          "positions": "points-full-2.bin",
+          "colors": "colors-full-2.bin",
+          "count": 458946
+        },
+        {
+          "positions": "points-full-3.bin",
+          "colors": "colors-full-3.bin",
+          "count": 458945
+        },
+        {
+          "positions": "points-full-4.bin",
+          "colors": "colors-full-4.bin",
+          "count": 458945
+        }
+      ],
+      "fullPointCount": 2294728,
+      "pointCount": 2294728,
+      "cloudOriginUTM": [
+        716060.0,
+        7854510.0,
+        850.0
+      ],
+      "cloudDisplayCRS": "EPSG:32723",
+      "cloudExtent": [
+        1159.199951171875,
+        327.79998779296875,
+        1413.60009765625
+      ],
+      "surface": {
+        "width": 540,
+        "height": 662,
+        "boundsUTM": [
+          715536.089349106,
+          7853758.340813372,
+          716704.6826424545,
+          7855190.847187763
+        ],
+        "vertexCount": 357480,
+        "indexCount": 1428582,
+        "triangleCount": 476194,
+        "textureWidth": 5302,
+        "textureHeight": 6500,
+        "elevationMin": 683.4056396484375,
+        "elevationMax": 1004.1644287109375,
+        "source": "Modelo Digital do Terreno (MDT) texturizado com Ortofoto RGB de alta resolucao"
+      },
+      "sourceElevationMin": 683.3592529296875,
+      "sourceElevationMax": 1005.1215209960938,
+      "terrainClassCounts": [
+        289161,
+        355868,
+        348333,
+        303883,
+        136279
+      ]
+    },
+    {
+      "id": "2026_07",
+      "label": "Julho 2026",
+      "volume": 19263.53,
+      "density": 1.9,
+      "tonnes": 36600.707,
+      "orthoWebBounds": [
+        [
+          -19.399488044853033,
+          -42.948218093065755
+        ],
+        [
+          -19.3857269416706,
+          -42.93577697614642
+        ]
+      ],
+      "orthoBounds": [
+        [
+          -19.399488044853033,
+          -42.948218093065755
+        ],
+        [
+          -19.3857269416706,
+          -42.93577697614642
+        ]
+      ],
+      "terrainWebBounds": [
+        [
+          -19.399487893324057,
+          -42.948218093065755
+        ],
+        [
+          -19.3857269416706,
+          -42.93577833878433
+        ]
+      ],
+      "terrainBounds": [
+        [
+          -19.399487893324057,
+          -42.948218093065755
+        ],
+        [
+          -19.3857269416706,
+          -42.93577833878433
+        ]
+      ],
+      "elevationMin": 683.1045532226562,
+      "elevationMax": 1017.19384765625,
+      "contourCount": 838,
+      "cloudChunks": [
+        {
+          "positions": "points-full-0.bin",
+          "colors": "colors-full-0.bin",
+          "count": 520893
+        },
+        {
+          "positions": "points-full-1.bin",
+          "colors": "colors-full-1.bin",
+          "count": 520893
+        },
+        {
+          "positions": "points-full-2.bin",
+          "colors": "colors-full-2.bin",
+          "count": 520892
+        },
+        {
+          "positions": "points-full-3.bin",
+          "colors": "colors-full-3.bin",
+          "count": 520892
+        },
+        {
+          "positions": "points-full-4.bin",
+          "colors": "colors-full-4.bin",
+          "count": 520892
+        }
+      ],
+      "fullPointCount": 2604462,
+      "pointCount": 2604462,
+      "cloudOriginUTM": [
+        716060.0,
+        7854510.0,
+        850.0
+      ],
+      "cloudDisplayCRS": "EPSG:32723",
+      "cloudExtent": [
+        1311.0,
+        345.70001220703125,
+        1519.0999755859375
+      ],
+      "surface": {
+        "width": 540,
+        "height": 627,
+        "boundsUTM": [
+          715465.3925010548,
+          7853671.75615444,
+          716790.5030311741,
+          7855210.772887949
+        ],
+        "vertexCount": 338580,
+        "indexCount": 1263747,
+        "triangleCount": 421249,
+        "textureWidth": 5597,
+        "textureHeight": 6500,
+        "elevationMin": 683.1414794921875,
+        "elevationMax": 1016.5494995117188,
+        "source": "Modelo Digital do Terreno (MDT) texturizado com Ortofoto RGB de alta resolucao"
+      },
+      "sourceElevationMin": 683.0778198242188,
+      "sourceElevationMax": 1017.31640625,
+      "terrainClassCounts": [
+        261693,
+        311386,
+        290222,
+        283146,
+        122377
+      ]
+    },
+    {
+      "id": "2026_08",
+      "label": "Agosto 2026",
+      "volume": 27797.60014,
+      "density": 1.9,
+      "tonnes": 52815.44027,
+      "orthoWebBounds": [
+        [
+          -19.40037794168409,
+          -42.94867235337724
+        ],
+        [
+          -19.385658660447113,
+          -42.93518854814428
+        ]
+      ],
+      "orthoBounds": [
+        [
+          -19.40037794168409,
+          -42.94867235337724
+        ],
+        [
+          -19.385658660447113,
+          -42.93518854814428
+        ]
+      ],
+      "terrainWebBounds": [
+        [
+          -19.399886794924896,
+          -42.94873354357202
+        ],
+        [
+          -19.38568792091752,
+          -42.93528437285456
+        ]
+      ],
+      "terrainBounds": [
+        [
+          -19.399886794924896,
+          -42.94873354357202
+        ],
+        [
+          -19.38568792091752,
+          -42.93528437285456
+        ]
+      ],
+      "elevationMin": 674.40380859375,
+      "elevationMax": 1007.28466796875,
+      "contourCount": 823,
+      "cloudChunks": [
+        {
+          "positions": "points-full-0.bin",
+          "colors": "colors-full-0.bin",
+          "count": 565987
+        },
+        {
+          "positions": "points-full-1.bin",
+          "colors": "colors-full-1.bin",
+          "count": 565987
+        },
+        {
+          "positions": "points-full-2.bin",
+          "colors": "colors-full-2.bin",
+          "count": 565987
+        },
+        {
+          "positions": "points-full-3.bin",
+          "colors": "colors-full-3.bin",
+          "count": 565987
+        },
+        {
+          "positions": "points-full-4.bin",
+          "colors": "colors-full-4.bin",
+          "count": 565987
+        }
+      ],
+      "fullPointCount": 2829935,
+      "pointCount": 2829935,
+      "cloudOriginUTM": [
+        716060.0,
+        7854510.0,
+        850.0
+      ],
+      "cloudDisplayCRS": "EPSG:32723",
+      "cloudExtent": [
+        1417.89990234375,
+        343.70001220703125,
+        1624.199951171875
+      ],
+      "surface": {
+        "width": 540,
+        "height": 619,
+        "boundsUTM": [
+          715416.5004772379,
+          7853572.490988874,
+          716852.4144838813,
+          7855218.899619576
+        ],
+        "vertexCount": 334260,
+        "indexCount": 1151478,
+        "triangleCount": 383826,
+        "textureWidth": 5669,
+        "textureHeight": 6500,
+        "elevationMin": 674.5182495117188,
+        "elevationMax": 1006.7680053710938,
+        "source": "Modelo Digital do Terreno (MDT) texturizado com Ortofoto RGB de alta resolucao"
+      },
+      "sourceElevationMin": 674.3718872070312,
+      "sourceElevationMax": 1007.69287109375,
+      "terrainClassCounts": [
+        275768,
+        277549,
+        276823,
+        242712,
+        88013
+      ]
+    },
+    {
+      "id": "2026_09",
+      "label": "Setembro 2026",
+      "volume": 24886.9174,
+      "density": 1.9,
+      "tonnes": 47285.14306,
+      "orthoWebBounds": [
+        [
+          -19.40065311591014,
+          -42.94884938154311
+        ],
+        [
+          -19.385637416290706,
+          -42.93499665494222
+        ]
+      ],
+      "orthoBounds": [
+        [
+          -19.40065311591014,
+          -42.94884938154311
+        ],
+        [
+          -19.385637416290706,
+          -42.93499665494222
+        ]
+      ],
+      "terrainWebBounds": [
+        [
+          -19.40065244563974,
+          -42.94884938154311
+        ],
+        [
+          -19.385637416290706,
+          -42.934996495058975
+        ]
+      ],
+      "terrainBounds": [
+        [
+          -19.40065244563974,
+          -42.94884938154311
+        ],
+        [
+          -19.385637416290706,
+          -42.934996495058975
+        ]
+      ],
+      "elevationMin": 676.0656127929688,
+      "elevationMax": 1007.3883056640625,
+      "contourCount": 832,
+      "cloudChunks": [
+        {
+          "positions": "points-full-0.bin",
+          "colors": "colors-full-0.bin",
+          "count": 602336
+        },
+        {
+          "positions": "points-full-1.bin",
+          "colors": "colors-full-1.bin",
+          "count": 602336
+        },
+        {
+          "positions": "points-full-2.bin",
+          "colors": "colors-full-2.bin",
+          "count": 602336
+        },
+        {
+          "positions": "points-full-3.bin",
+          "colors": "colors-full-3.bin",
+          "count": 602335
+        },
+        {
+          "positions": "points-full-4.bin",
+          "colors": "colors-full-4.bin",
+          "count": 602335
+        }
+      ],
+      "fullPointCount": 3011678,
+      "pointCount": 3011678,
+      "cloudOriginUTM": [
+        716060.0,
+        7854510.0,
+        850.0
+      ],
+      "cloudDisplayCRS": "EPSG:32723",
+      "cloudExtent": [
+        1456.800048828125,
+        351.79998779296875,
+        1656.699951171875
+      ],
+      "surface": {
+        "width": 540,
+        "height": 615,
+        "boundsUTM": [
+          715397.5421125076,
+          7853541.77575679,
+          716872.6915434063,
+          7855221.472622449
+        ],
+        "vertexCount": 332100,
+        "indexCount": 1192824,
+        "triangleCount": 397608,
+        "textureWidth": 5708,
+        "textureHeight": 6500,
+        "elevationMin": 676.1688842773438,
+        "elevationMax": 1007.0385131835938,
+        "source": "Modelo Digital do Terreno (MDT) texturizado com Ortofoto RGB de alta resolucao"
+      },
+      "sourceElevationMin": 676.0479736328125,
+      "sourceElevationMax": 1007.4496459960938,
+      "terrainClassCounts": [
+        287024,
+        269210,
+        303963,
+        245783,
+        89626
+      ]
+    }
+  ],
+  "crs": "EPSG:4326",
+  "sceneOriginUTM": [
+    716060.0,
+    7854510.0,
+    850.0
+  ],
+  "references": [
+    {
+      "id": "area_diretamente_afetada",
+      "label": "Área Diretamente Afetada",
+      "color": "#e02626",
+      "weight": 1.6,
+      "url": "data/references/area_diretamente_afetada.geojson",
+      "featureCount": 1
+    },
+    {
+      "id": "direitos_minerarios",
+      "label": "Direitos Minerários",
+      "color": "#ffe000",
+      "weight": 1.5,
+      "dashArray": "7 5",
+      "url": "data/references/direitos_minerarios.geojson",
+      "featureCount": 2
+    },
+    {
+      "id": "propriedades_rurais",
+      "label": "Propriedades Rurais",
+      "color": "#d3d3d3",
+      "weight": 1.5,
+      "url": "data/references/propriedades_rurais.geojson",
+      "featureCount": 2
+    },
+    {
+      "id": "rede_drenagem",
+      "label": "Hidrografia",
+      "color": "#169fda",
+      "weight": 1.2,
+      "url": "data/references/rede_drenagem.geojson",
+      "featureCount": 11
+    },
+    {
+      "id": "reserva_legal",
+      "label": "Reserva Legal",
+      "color": "#98d98e",
+      "weight": 1,
+      "fill": true,
+      "fillOpacity": 0.5,
+      "defaultVisible": false,
+      "url": "data/references/reserva_legal.geojson",
+      "featureCount": 1
+    },
+    {
+      "id": "servidao_ambiental_perpetua",
+      "label": "Servidão Ambiental Perpétua",
+      "color": "#f39a38",
+      "weight": 1,
+      "fill": true,
+      "fillOpacity": 0.5,
+      "defaultVisible": false,
+      "url": "data/references/servidao_ambiental_perpetua.geojson",
+      "featureCount": 1
+    }
+  ],
+  "rasterDisplayCRS": "EPSG:3857",
+  "terrainClassification": {
+    "method": "equal_interval",
+    "unit": "m",
+    "sourceMin": 674.3718872070312,
+    "sourceMax": 1019.4918212890625,
+    "edges": [
+      674.37,
+      743.4,
+      812.42,
+      881.45,
+      950.47,
+      1019.5
+    ],
+    "colors": [
+      "#2166ac",
+      "#67a9cf",
+      "#d1e5b0",
+      "#efb366",
+      "#a95332"
+    ],
+    "source": "Full-resolution MDTs; NoData excluded"
+  }
+}

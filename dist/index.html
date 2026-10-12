@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#00507a">
+  <title>WebGIS Prosper - Mina Cuité - Monitoramento Topográfico e Ambiental | Versão 1.2</title>
+  <meta name="description" content="Geoportal de Monitoramento Topográfico e Volumetria de Pilhas. Levantamentos mensais da Mina Cuité desenvolvidos por Lithos Geologia para Prosper Mineração S/A.">
+  <link rel="icon" href="brand/favicon-lithos.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="vendor/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="portal-refinements.css">
+  <link rel="stylesheet" href="portal-brand.css">
+  <link rel="stylesheet" href="files-panel.css">
+  <script>try{document.documentElement.dataset.theme=localStorage.getItem("lithos-theme")==="dark"?"dark":"light"}catch{}</script>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "./vendor/three.module.js"
+      }
+    }
+  </script>
+</head>
+<body>
+  <a class="skipLink" href="#workspace">Ir para a área de visualização</a>
+
+  <!-- Cabeçalho Corporativo Unificado -->
+  <header class="corpHeader">
+    <div class="brandBox lithosWrap" title="Lithos Geologia — Engenharia e Meio Ambiente">
+      <img src="brand/lithos.png" alt="Lithos Geologia — Engenharia e Meio Ambiente" class="corpLogo lithosLogo">
+    </div>
+
+    <div class="titleCenter">
+      <h1 class="portalTitle">WebGIS Prosper <span class="mineName">· Mina Cuité</span><span class="portalSubtitle">Monitoramento Topográfico e Ambiental</span></h1>
+      <div class="portalMeta"><span class="metaItem version">Versão 1.2</span><span class="metaSep">•</span>
+        <span class="metaItem period">Janeiro a Setembro de 2026</span>
+        <span class="metaSep">•</span>
+        <span class="metaItem count">9 levantamentos</span>
+      </div>
+    </div>
+
+    <div class="brandBox clientWrap" title="Prosper Mineração S/A">
+      <span class="clientLabel">Empreendimento</span>
+      <img src="brand/prosper.png" alt="Prosper" class="corpLogo clientLogo">
+    </div>
+  </header>
+
+  <!-- Estrutura Principal -->
+  <main class="mainLayout">
+    <!-- Menu Lateral Esquerdo: Informações, Estoque e Métricas -->
+    <aside id="sidebar" class="sidebar" aria-label="Mapas de fundo e camadas de referência">
+      <div class="sidebarHeader">
+        <div>
+          <h2 class="sidebarMainTitle">Mapas e referências</h2>
+          <p class="sidebarSubtitle">Contexto para o acompanhamento mensal</p>
+        </div>
+        <button id="sidebarClose" class="iconBtn closeBtn" aria-label="Fechar menu lateral">✕</button>
+      </div>
+
+      <section class="contextSection">
+        <h3 class="sideSectionTitle">Mapa de fundo</h3>
+        <div id="basemapOptions" class="basemapOptions" role="radiogroup" aria-label="Mapa de fundo"></div>
+      </section>
+      <section class="contextSection">
+        <h3 class="sideSectionTitle">Camadas de referência</h3>
+        <div id="referenceOptions" class="referenceOptions"></div>
+      </section>
+
+      <!-- Histórico de Medições da Sessão -->
+      <section class="measurementSection">
+        <div class="sideSectionHead">
+          <h3 class="sideSectionTitle">Medições Realizadas</h3>
+          <span id="measureCount" class="measureCountBadge">0</span>
+        </div>
+        <div id="measurements" class="measureList">
+          <p class="measureEmptyNotice">Use Distância ou Área na barra superior para medir sobre o mapa.</p>
+        </div>
+      </section>
+
+      <!-- Rodapé Oficial com Identidade Visual -->
+      <div class="sidebarBrandFooter">
+        <div class="brandMetaRow">
+          <span class="brandMetaLabel">Responsável Técnico:</span>
+          <strong class="brandMetaName lithosBrandColor">Lithos Geologia Engenharia e Meio Ambiente</strong>
+        </div>
+        <div class="brandMetaRow">
+          <span class="brandMetaLabel">Cliente:</span>
+          <strong class="brandMetaName prosperBrandColor">Prosper Mineração</strong>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Espaço de Trabalho Central (Workspace) -->
+    <section id="workspace" class="workspace" tabindex="-1">
+      <!-- Barra de Ferramentas Superior com Seletor de Comparação e Medição -->
+      <div class="workspaceToolbar">
+        <div class="toolbarGroup">
+          <button id="sidebarToggle" class="iconBtn" aria-label="Recolher menu lateral" title="Alternar menu lateral"></button>
+        </div>
+
+        <div class="toolbarDivider"></div>
+
+        <!-- Seletor Rápido de Telas para Comparação Livre -->
+        <div class="toolbarGroup layoutGroup"><button id="compare" class="layoutBtn" aria-pressed="false">Comparar levantamentos</button></div>
+
+        <div class="toolbarDivider"></div>
+
+        <!-- Ferramentas de Medição no Mapa -->
+        <div class="toolbarGroup measureGroup" role="group" aria-label="Ferramentas de Medição">
+          <button id="distance" class="measureBtn" aria-pressed="false" title="Calcular distância linear ou polilinha"></button>
+          <button id="area" class="measureBtn" aria-pressed="false" title="Calcular área de polígono"></button>
+          <button id="clearMeasures" class="iconBtn" title="Limpar todas as medições"></button>
+          <button id="filesButton" class="measureBtn" title="Baixar dados em KMZ e carregar arquivos KML ou KMZ" aria-haspopup="dialog">Arquivos</button>
+        </div>
+
+        <div class="toolbarDivider"></div>
+
+        <!-- Sincronização de Câmeras e Vistas -->
+        <div class="toolbarGroup viewGroup">
+          <label class="syncCheckboxLabel" title="Sincroniza o enquadramento, zoom dos mapas e rotação 3D entre todos os painéis">
+            <input id="sync" type="checkbox" checked>
+            <span>Sincronizar mapas</span>
+          </label>
+        </div>
+        <button id="themeToggle" class="themeButton" aria-pressed="false" title="Ativar modo escuro">Modo escuro</button>
+      </div>
+
+      <!-- Barra Flutuante de Medição Ativa (HUD) -->
+      <div id="measureBar" class="measureHud" hidden>
+        <div class="hudLeft">
+          <div class="hudPulse"></div>
+          <span id="measureHint" class="hudHint">Clique no mapa para marcar pontos.</span>
+          <strong id="measureLive" class="hudLiveValue"></strong>
+        </div>
+        <div class="hudRight">
+          <button id="undoMeasure" class="hudBtn">Desfazer Ponto</button>
+          <button id="finishMeasure" class="hudBtn primary">Concluir Medição</button>
+          <button id="cancelMeasure" class="hudBtn">Cancelar</button>
+        </div>
+      </div>
+
+      <!-- Grade Dinâmica de Painéis Comparativos -->
+      <div id="panels" class="panelsContainer"></div>
+
+      <!-- Estado Vazio -->
+      <div id="empty" class="emptyState" hidden>
+        
+        <h2>Nenhum painel aberto</h2>
+        <p>Use Comparar levantamentos para abrir os mapas.</p>
+      </div>
+
+      <!-- Barra de Status e Coordenadas -->
+      <footer class="workspaceStatusFooter">
+        <div id="coordinates" class="coordReadout">
+          <span>Mova o cursor sobre o mapa</span>
+        </div>
+        <div class="datumReadout">
+          <span>WGS84 · Medições horizontais</span>
+        </div>
+      </footer>
+    </section>
+  </main>
+
+  <!-- Painel Deslizante de Atributos da Curva de Nível -->
+  <section id="attributePanel" class="attributeDrawer" hidden aria-label="Resumo da Tabela de Atributos">
+    <div class="attributeDrawerHead">
+      <div>
+        <span id="attributeMonth" class="attrSub">Levantamento</span>
+        <h2>Curva de Nível</h2>
+      </div>
+      <button id="closeAttributes" class="iconBtn" aria-label="Fechar tabela de atributos">✕</button>
+    </div>
+    <dl id="attributes" class="attrList"></dl>
+    <div class="attrFoot">
+      <small>Valores extraídos diretamente do arquivo vetorial topográfico oficial.</small>
+    </div>
+  </section>
+
+  <!-- Notificação Toast Flutuante -->
+  <div id="notice" class="toastNotice" role="status" aria-live="polite"></div>
+
+  <!-- Bibliotecas Externas Locais -->
+  <script src="vendor/leaflet.js"></script>
+  <script src="vendor/geographiclib-geodesic.min.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
