@@ -1,0 +1,13 @@
+python_packages
+scripts
+tmp
+node_modules
+.git
+.vercel
+.env*
+*.log
+*.bat
+*.md
+server.cjs
+.gitattributes
+.gitignore
