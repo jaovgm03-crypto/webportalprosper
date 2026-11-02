@@ -8,7 +8,7 @@ Abra `iniciar_portal.bat` e acesse http://127.0.0.1:8082/. Alternativamente, exe
 
 ## Organização
 
-- `dist`: aplicação, dados preparados dos nove meses, seis referências, bibliotecas e identidade visual.
+- `dist`: aplicação, dados preparados de janeiro a outubro de 2026, seis referências, bibliotecas e identidade visual.
 - `scripts`: processamento atual, validação e testes; scripts históricos de modificação da versão anterior foram excluídos desta cópia.
 - `python_packages`: dependências locais para processamento; não são publicadas.
 - `.git`: histórico independente, sem vínculos com a pasta antiga, e conexão com o repositório existente.
